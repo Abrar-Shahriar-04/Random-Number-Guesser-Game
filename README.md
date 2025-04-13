@@ -4,11 +4,11 @@
 
 <h2>Features:</h2>
 <ul>
-  <li>1) Random number selection between 1 and 10</li>
-  <li>2) Tells the user if their guess is too high or too low</li>
-  <li>3) Keeps asking until the correct guess is made</li>
-  <li>4) Asks the player if they want to play again after finishing</li>
-  <li>5) Handles invalid inputs smoothly (like typing words instead of numbers)</li>
+  <li>Random number selection between 1 and 10</li>
+  <li>Tells the user if their guess is too high or too low</li>
+  <li>Keeps asking until the correct guess is made</li>
+  <li>Asks the player if they want to play again after finishing</li>
+  <li>Handles invalid inputs smoothly (like typing words instead of numbers)</li>
 </ul>
 
 <h2>How to Play:</h2>
@@ -24,22 +24,3 @@
   <li>Python 3.x</li>
 </ul>
 
-<h2>How to Run:</h2>
-<ol>
-  <li>Make sure you have Python 3.x installed on your system. You can download it from <a href="https://www.python.org/">python.org</a>.</li>
-  <li>Clone the repository:
-    <pre><code>git clone https://github.com/your-username/random-number-guesser.git</code></pre>
-  </li>
-  <li>Navigate to the project directory:
-    <pre><code>cd random-number-guesser</code></pre>
-  </li>
-  <li>Run the game:
-    <pre><code>python random_number_guesser.py</code></pre>
-  </li>
-</ol>
-
-<h2>Contribution:</h2>
-<p>Feel free to fork the repository and submit pull requests for improvements or new features. If you encounter any issues or have suggestions, feel free to open an issue in the GitHub repository.</p>
-
-<h2>License:</h2>
-<p>This project is open-source and available under the MIT License.</p>
