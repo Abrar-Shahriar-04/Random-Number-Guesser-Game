@@ -1,18 +1,33 @@
-# Random-Number-Guesser-Game
-This is a simple Python-based Random Number Guesser game where the computer selects a random number between 1 and 10, and the player has to guess it. The game provides feedback on whether the guess is too high or too low, and the player is given multiple chances to guess correctly. Once the player guesses the correct number, the game asks if they want to play again. If the player inputs anything other than "yes" or "no", they are prompted to try again.
+Random Number Guesser is a fun and simple Python-based game where the computer randomly selects a number between 1 and 10, and the player has to guess it. The game provides feedback after each guess, telling the player whether their guess is too high or too low, until they correctly guess the number. Once the correct guess is made, the player is given an option to play the game again.
+
 
 Features:
-Random number generation between 1 and 10
+1.Random Number Selection: The computer selects a number between 1 and 10.
 
-Hints provided on whether the guess is too high or too low
+2.User Feedback: After each guess, the player receives feedback:
 
-Repeated guessing until the correct number is found
+  -----"Too high!" if the guess is greater than the selected number.
 
-Option to play again after each game
+  -----"Too low!" if the guess is less than the selected number.
 
-Input validation to handle invalid entries
+  -----"Correct!" when the player guesses the right number.
+
+3.Play Again Option: After each game, the player can choose to play again or exit the game.
+
+4.Input Validation: Ensures that the player enters a valid number and handles invalid input gracefully.
+
+
+
+How to Play:
+1.The game starts by asking the player to guess a number between 1 and 10.
+
+2.The player makes a guess, and the game tells them if the guess is too high, too low, or correct.
+
+3.If the guess is incorrect, the player can continue guessing until they get it right.
+
+4.After the player guesses correctly, the game will ask if they want to play again. If they answer with "yes" or "y", the game restarts. If they answer with "no" or "n", the game ends.
+
+
 
 Technologies Used:
-Python (No external libraries needed)
-
-This project is a beginner-friendly introduction to Python, focusing on basic input/output, loops, conditionals, and handling user input.
+Python 3.x: The game is written entirely in Python, using basic control structures like loops, conditionals, and input/output.
